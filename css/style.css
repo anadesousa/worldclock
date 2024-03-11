@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/644/original/patrick-tomasso-1NTFSnV-KLs-unsplash.jpg?1710191549");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #d8a45f;
+  border-radius: 30px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 15px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+}
